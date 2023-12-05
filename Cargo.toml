@@ -1,5 +1,5 @@
 [package]
-name = "rust_extender"
+name = "regex_rules"
 version = "0.1.0"
 edition = "2021"
 
@@ -10,3 +10,6 @@ regex = "1.6.0"
 
 [profile.release]
 opt-level = 3
+
+[lib]
+crate-type = ["lib"]
